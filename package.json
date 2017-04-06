@@ -1,0 +1,16 @@
+{
+  "name": "assignment8",
+  "version": "1.0.0",
+  "description": "This project requires the student to consume an API using ajax.",
+  "scripts": {
+    "start": "npm run lite",
+    "lite": "lite-server"
+  },
+  "dependencies": {
+    "handlebars": "^4.0.5",
+    "jquery": "^2.2.1"
+  },
+  "devDependencies": {
+    "lite-server": "^2.1.0"
+  }
+}

@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    background-color: #e6e6e6;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+h1 {
+    margin: 0;
+}
+
+input[type="text"] {
+    font-size: 1.5em;
+}
+
+.wrapper {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#moviesContainer {
+    background-color: white;
+    overflow: hidden;
+}
+
+#moviesContainer div {
+    margin: 10px;
+    border: solid 1px #ccc;
+    padding: 10px;
+    background-color: #cccccc ;
+}
+
+.movie > div:first-child {
+    display: flex;
+}
+
+.movie > div:last-child {
+    display: none;
+}
+
+.movie h2 {
+    margin-left: 20px;
+}
+
+dl {
+    overflow: hidden;
+    margin-bottom: 0;
+}
+
+dt, dd {
+    float: left;
+}
+
+dt {
+    clear: both;
+    font-weight: bold;
+}
+
+dt:after {
+    content: ':';
+}
+
+dd {
+    margin-left: 10px;
+}
